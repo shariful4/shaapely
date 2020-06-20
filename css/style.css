@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/* Header part start here */
+header {
+    padding: 25px 0;
+    position: fixed;
+    box-shadow: 0px 1px 1px #0000005e;
+    width: 100%;
+    background: #fff;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo-part {
+    width: 20%;
+    float: left;
+}
+
+.menu-part {
+    width: 80%;
+    float: left;
+}
+
+.menu-part ul {
+    text-align: right;
+}
+
+.menu-part ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.menu-part ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #363148;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-part ul li a:hover {
+    color: #000000;
+}
+
+/* Header part End here */
+/* Main part start here */
+.main-content {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-head {
+    text-align: center;
+    padding: 301px 0 215px;
+}
+
+.main-head h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.main-head p {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.btn-main a {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-first {
+    background: #745cf9;
+    border: 1px solid #745cf9;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 16px 55px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.btn-first:hover {
+    background: #5B4ACF;
+}
+
+.btn-second {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 16px 40px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.btn-second:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Main part End here */
+/* Seo friendly part here */
+.seo-friendly {
+    padding: 70px 0;
+}
+
+.seo-img {
+    width: 68%;
+    float: left;
+}
+
+.seo-img img {
+    max-width: 100%;
+    padding: 22px 49px 22px 0px;
+}
+
+.seo-content {
+    width: 32%;
+    float: left;
+    padding: 97px 0px 10px 0;
+    box-sizing: border-box;
+}
+
+.seo-content h3 {
+    color: #0e1015;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.seo-content p {
+    color: #8c979e;
+    font-size: 14px;
+    margin-top: 18px;
+    line-height: 25px;
+    margin-bottom: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* portfolio section start here */
+.portfolio-section {
+    padding: 70px 0;
+    background: #F5F5F5;
+}
+
+.portfolio-img {
+    width: 68%;
+    float: right;
+}
+
+.portfolio-img img {
+    max-width: 100%;
+    padding: 22px 0px 22px 49px;
+}
+
+.portfolio-content {
+    width: 32%;
+    float: left;
+    padding: 97px 0px 10px 0;
+    box-sizing: border-box;
+}
+
+.portfolio-content h3 {
+    color: #0e1015;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.portfolio-content p {
+    color: #8c979e;
+    font-size: 14px;
+    margin-top: 18px;
+    line-height: 25px;
+    margin-bottom: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Portfolio section end here */
+/* paralax section start here*/
+.paralax {
+    background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.52), rgba(40, 35, 39, 0.73)), url(../images/paralax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.paralax-content {
+    padding: 90px 0px 90px 0;
+}
+
+.paralax-content h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.paralax-content p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 43px;
+    margin-top: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*paralax section end here */
+/* limitless section start here */
+.limitless {
+    background: #F5F5F5;
+}
+
+.limit-content {
+    padding: 70px 0 0px 0px;
+    text-align: center;
+}
+
+.limit-content h3 {
+    font-size: 30px;
+    color: #0e1015;
+    font-family: 'Raleway', sans-serif;
+}
+
+.limit-content p {
+    color: #8c979e;
+    font-size: 14px;
+    margin: 20px 0 38px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.limit-content img {
+    margin-top: 55px;
+    height: auto;
+    display: inherit;
+}
+
+/* limitless section end here */
+/* Project section start here */
+.project {
+    background: #000;
+    padding-top: 75px;
+}
+
+.project-content {
+    text-align: center;
+}
+
+.project-content h3 {
+    color: #fff;
+    font-size: 47px;
+}
+
+.project-content p {
+    color: #fff;
+    font-size: 14px;
+    margin: 16px 0 43px 0;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.col-1-1 {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    display: inherit;
+}
+
+.col-1-1 img {
+    width: 100%;
+    height: auto;
+    display: inherit;
+}
+
+.col-1-2 {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-1-2 img {
+    width: 100%;
+    height: auto;
+    display: inherit;
+}
+
+.col-1-3 {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-1-3 img {
+    width: 100%;
+    height: auto;
+    display: inherit;
+}
+
+/*Project section end here */
+/* testimonials start here */
+.testimonials {
+    background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.52), rgba(40, 35, 39, 0.73)), url(../images/paralax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.testimonials-content {
+    padding: 100px 0 0px 0;
+}
+
+.testimonials-content h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: raleway;
+    font-weight: 400;
+}
+
+.testimonials-content p {
+    color: #fff;
+    font-size: 16px;
+    font-family: raleway;
+    padding-top: 13px;
+    line-height: 26px;
+}
+
+.testimonials-image {
+    padding-bottom: 100px;
+}
+
+.testimonials-image img {
+    padding-top: 50px;
+}
+
+.testimonials-image p {
+    color: #fff;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: raleway;
+}
+
+/* testimonials End here */
+/* Clients section start here */
+.clients {
+    background: #fff;
+}
+
+.clients-content {
+    padding: 70px 0 55px 0;
+    text-align: center;
+}
+
+.clients-content h2 {
+    font-size: 30px;
+    color: #000;
+    font-family: raleway;
+    font-weight: 400;
+}
+
+.clients-content img {
+    width: 100%;
+    padding-top: 70px;
+}
+
+/* Clients section end here */
+/* footer part start here */
+footer {
+    background: #000;
+    padding: 49px 0px 40px 0px;
+}
+
+.footer-content {
+    float: left;
+    width: 50%;
+}
+
+.footer-content p {
+    color: #ffffff8c;
+    font-size: 14px;
+    font-family: raleway;
+    padding: 8px 0px 0px 0px;
+}
+
+.footer-icon {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.footer-icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-icon ul li a {
+    padding: 0 10px;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-icon ul li a:hover {
+    color: #00ffcf;
+}
